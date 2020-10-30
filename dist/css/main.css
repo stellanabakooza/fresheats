@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 body{background-color: #45dc45;}
 @media (min-width: 650px) {
   .flex-container {
@@ -51,6 +52,9 @@ header{text-align: center;
     
   
 /*# sourceMappingURL=main.css.map */
+=======
+body{background-color:#45dcdc}li{display:inline}img{width:100%;height:auto;max-width:100%}
+>>>>>>> Stashed changes
 =======
 body{background-color:#45dcdc}li{display:inline}img{width:100%;height:auto;max-width:100%}
 >>>>>>> Stashed changes
