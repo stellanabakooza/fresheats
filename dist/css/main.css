@@ -1,16 +1,52 @@
 body{background-color: #45dc45;}
-li{
-    display: inline;
-    text-align: center;
+@media (min-width: 650px) {
+  .flex-container {
+    flex-direction: column;
   }
-header{text-decoration-skip-ink: opera 40;}
-  h1{
-      display: inline;
-      scroll-padding-block-start: 50rem;
-      text-align:center;
-      text-decoration: brown;
-      text-decoration-skip: opera 50;
+}
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+body {
+  height: 100%;
+}
 
-  }
+img.one {
+  height: auto;
+  width: auto;
+}
+
+img.two {
+  height: 50%;
+  width: 50%;
+}
+
+header{text-align: center;
+        display: block;
+        padding:10px
+}
+ 
+        
+    container{
+        
+        position:absolute;
+        bottom:0;
+        width:110%;
+        height:100px;   /* Height of the footer */
+        background:#6cf;
+        text-align: center;
+        padding: 10px;
+        background-color: DarkSalmon;
+        color: rgb(255, 255, 255);
+          }
+    
+
+    
+
+
+    
+    
   
 /*# sourceMappingURL=main.css.map */
